@@ -82,10 +82,3 @@ For GPU acceleration, ensure CUDA and cuDNN are properly installed and compatibl
 Adjust hyperparameters (e.g., epochs, batch, lr0) based on your dataset size and requirements.
 
 ```
-
-FileNotFoundError: Check the path to last.pt or data.yaml. Use double backslashes (\\) or raw strings (r'path\to\file') for Windows paths.
-TypeError for Metrics: If accessing metrics like box.mp, use them as attributes (e.g., box.mp instead of box.mp()).
-Out of Memory: Reduce batch size or use a smaller model (e.g., yolov8s.yaml instead of yolov8m.yaml).
-
-License
-This project is licensed under the MIT License.
